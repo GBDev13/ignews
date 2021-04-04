@@ -12,11 +12,12 @@
 
 ## 💻 O que tem no projeto?
 
-* Front-end clean, desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file/0Y26j0tf1K2WB5c1ja5hov/Desafios-M%C3%B3dulo-3-ReactJS?node-id=0%3A1).
 * Integração com o Prismic CMS, para trabalhar com toda a parte do sistema do blog.
-* Integração com o sistema de Preview do Prismic, onde é possível ver um post não publicado dentro do blog, antes mesmo dele ir ao ar.
+* Integração com o Stripe para a parte dos pagamentos das inscrições.
+* Integração com o NextAuth para a parte do login com o Github.
+* Sistema de verificação de assinatura, o conteúdo exibido varia entre usuários com/sem assinatura paga.
+* Dados são salvos no bando do FaunDb.
 * Uso do sistema estático do Next.js, onde os posts são mantidos no cache para um melhor carregamento.
-* Sistema de comentários usando o Utteranc.
 
 &nbsp;
 
@@ -31,6 +32,7 @@
 * [NextAuth](https://next-auth.js.org/)
 * [Prismic CMS](https://prismic.io/)
 * [Stripe](https://stripe.com/en-br)
+* [Fauna](https://fauna.com/)
 
 &nbsp;
 
